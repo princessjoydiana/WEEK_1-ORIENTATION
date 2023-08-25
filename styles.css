@@ -1,0 +1,63 @@
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-color: #59daf4;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+.header-image {
+  max-width: 200px;    
+}
+
+.about,
+.experience,
+.education {
+  padding: 2rem;
+}
+
+.about h2,
+.experience h2,
+.education h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+.basic-info {
+  background-color: #f9f9f9;
+  padding: 2rem;
+}
+
+.basic-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.basic-info li {
+  margin-bottom: 0.5rem;
+}
+
+.basic-info strong {
+  font-weight: bold;
+}
+
+.basic-info a {
+  color: #333;
+  text-decoration: none;
+}
+
